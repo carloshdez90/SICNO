@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Sistema Contable 2013</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Sistema Contable<span class="logo_colour">-SIC115 CicloII-2013</span></a></h1>
+          <h2></h2>
+        </div>
+      </div>
+      <nav>
+        <div id="menu_container">
+          <ul class="sf-menu" id="nav">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="examples.html">Contabilidad General</a></li>
+            <li><a href="page.html">Contabilidad de costos</a></li>
+            <li><a href="another_page.html">Inventarios</a></li>
+            <li><a href="#">Estados Financieros</a>
+              <ul>
+                <li><a href="#">Balance General</a></li>
+                <li><a href="#">Estado de Resultados</a>
+                  <ul>
+                    <li><a href="#">Sub Drop Down One</a></li>
+                    <li><a href="#">Sub Drop Down Two</a></li>
+                    <li><a href="#">Sub Drop Down Three</a></li>
+                    <li><a href="#">Sub Drop Down Four</a></li>
+                    <li><a href="#">Sub Drop Down Five</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Balance de comprobacion</a></li>
+                <li><a href="#">Estado de perdidas y ganancias</a></li>
+                <li><a href="#">balance de situacion actual</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.php">Recursos Humanos</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <h3>Bienvenido @Usuario</h3>
+          <h4>Puesto de usuario</h4>
+          <h5>Fecha Actual</h5>
+          <p>Ultima actividad de usuario <a href="#">Leer Historial</a></p>
+        </div>
+        <div class="sidebar">
+          <h3>Accesos Rápidos</h3>
+          <ul>
+            <li><a href="#">Registro Diario</a></li>
+            <li><a href="#">Registro en planilla</a></li>
+            <li><a href="#">Compra</a></li>
+            <li><a href="#">Registro orden de fab</a></li>
+          </ul>
+        </div>
+        <div class="sidebar">
+          <h3>Estadisticas</h3>
+          <ul>
+            <li><a href="#">Produccion</a></li>
+            <li><a href="#">Ventas</a></li>
+            <li><a href="#">Personal</a></li>
+            <li><a href="#">Utilidades</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+        <h1>Sistema Contable: Empresa Maderera "El Salvador"</h1>
+        <p>Este sistema presenta una solucion sencilla a la contabilidad cotidiana de una empresa. 
+        <h2>Utilidades Ofrecidad</h2>
+        <p>Pensando en las necesidades de una empresa manufacturera el sistema presenta los siguiente servicios:</p>
+        <ul>
+          <li>Contabilidad de costos</li>
+          <li>Contabilidad general</li>
+          <li>Manejo de inventarios</li>
+          <li>Presentacion de estados financieros</li>
+          <li>Presentacion de estadisticas</li>
+        </ul>
+      </div>
+    </div>
+    <div id="scroll">
+      <a title="Scroll to the top" class="top" href="#"><img src="images/top.png" alt="top" /></a>
+    </div>
+    <footer>
+      <p><img src="images/twitter.png" alt="twitter" />&nbsp;<img src="images/facebook.png" alt="facebook" />&nbsp;<img src="images/rss.png" alt="rss" /></p>
+      <p><a href="index.html">Inicio</a> | <a href="examples.html">Contabilidad General</a> | <a href="page.html">Contabilidad de costos</a> | <a href="another_page.html">Estados financieros</a> | <a href="contact.php">Recursos Humanos</a></p>
+      <p>Copyright &copy; SIC115 | Ciclo II 2013</p>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+      $('.top').click(function() {$('html, body').animate({scrollTop:0}, 'fast'); return false;});
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+/******************************************************/
+
+@font-face { 
+  font-family: Droid Sans; 
+    src: url('../fonts/DroidSans-webfont.eot'); 
+    src: local("Droid Sans"), url('../fonts/DroidSans-webfont.woff'); 
+} 
+
+@font-face { 
+  font-family: News Cycle; 
+    src: url('../fonts/NewsCycle-Regular.eot'); 
+    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
+} 
+
+body {
+  background: transparent url(../images/dark.png) repeat;
+  font: normal .80em 'Droid Sans', arial, sans-serif;
+  color: #FFF;
+}
+
+.login {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#credenciales {
+  display: inline-block;
+}
+
+
+form{
+	border: 1px solid white;
+	border-radius: 5px;
+	box-shadow: 0 0 5px white;
+	box-shadow: inset 0 0 5px white;
+	padding: 50px 30px 50px 30px;
+}
+
+footer {
+	position:absolute; /*El div será ubicado con relación a la pantalla*/
+	left:0px; /*A la derecha deje un espacio de 0px*/
+	right:0px; /*A la izquierda deje un espacio de 0px*/
+	bottom:20px; /*Abajo deje un espacio de 0px*/
+	height:50px; /*alto del div*/
+	z-index:0;
+}
+
+.loginV {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.pass  {
+  font-size: 20px;
+  margin: 20px 20px 20px 0;
+}
+
+.loginB {
+	font: normal .80em 'Droid Sans', arial, sans-serif;
+  	color: #FFF;
+  	font-weight: bold;
+	font-size: 16px;
+	background-color: green;
+	padding: 15px 20px 15px 20px;
+	border: 0px solid #000;
+	margin-top: 20px;
+}
+
+.loginB:hover {
+	font: normal .80em 'Droid Sans', arial, sans-serif;
+  	color: #FFF;
+  	font-weight: bold;
+	font-size: 16px;
+	background-color: red;
+	padding: 15px 20px 15px 20px;
+	border: 0px solid #000;
+	margin-top: 20px;
+}
+
